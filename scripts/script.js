@@ -12,7 +12,7 @@ const handleForm = (event) => {
         sum = sum + (elements[i].dataset.price) * 1;
     }
 
-    sum = sum + (pages * 350);
+    sum = sum + Math.abs(pages * 350);
     result.innerHTML = `<h1>Cena za usługę: ${sum} PLN</h1>`
 }
 
