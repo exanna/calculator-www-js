@@ -16,20 +16,8 @@ const handleForm = (event) => {
     result.innerHTML = `<h1>Cena za usługę: ${sum} PLN</h1>`
 }
 
-
 form.addEventListener('submit', handleForm);
 
 
 
-    // const wwwDesign = document.querySelector('#wwwDesign').value;
-    // const WPinstalation = document.querySelector('#WPinstalation').value;
-    // const rodo = document.querySelector('#rodo').value;
-    // const google = document.querySelector('#google');
-    // const googleMaps = document.querySelector('#googleMaps').value;
-    // const seo = document.querySelector('#seo').value;
-    // const ssl = document.querySelector('#ssl').value;
-    // const mailing = document.querySelector('#mailing').value;
-    // const page = document.querySelector('#page').value;
-    // const contact = document.querySelector('#contact').value;
-    // const gallery = document.querySelector('#gallery').value;
-    // const regulations = document.querySelector('#regulations').value;
+
