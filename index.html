@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koszt WWW</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="http://northbydesign.pl" target="_blank">
+                <img src="images/logo-b.png" alt="logo">
+            </a>
+            <h1>Koszt strony WWW</h1>
+        </div>
+        <div class="app">
+            <form id="form">
+                <label for="wwwDesign" class="label">
+                    <input data-price="900" type="checkbox" class="check" name="wwwDesign" id="wwwDesign">
+                    <span class="checkmark"></span>
+                    projekt graficzny strony głównej (900 PLN)
+                </label>
+                <label for="WPinstalation" class="label">
+                    <input data-price="600" type="checkbox" class="check" name="WPinstalation" id="WPinstalation">
+                    <span class="checkmark"></span>
+                    instalacja WordPress + przełożenie projektu graficznego strony głównej (600 PLN)
+                </label>
+                <label for="rodo" class="label">
+                    <input data-price="100" type="checkbox" class="check" id="rodo" name="rodo">
+                    <span class="checkmark"></span>
+                    formularz kontaktowy z RODO (100 PLN)
+                </label>
+                <label for="google" class="label">
+                    <input data-price="100" type="checkbox" class="check" name="google" id="google">
+                    <span class="checkmark"></span>
+                    integracja z Google Analytics (100 PLN)
+                </label>
+                <label for="googleMaps" class="label">
+                    <input data-price="50" type="checkbox" class="check" name="googleMaps" id="googleMaps">
+                    <span class="checkmark"></span>
+                    integracja z API Google Maps (50 PLN)
+                </label>
+                <label for="seo" class="label">
+                    <input data-price="500" type="checkbox" class="check" name="seo" id="seo">
+                    <span class="checkmark"></span>
+                    optymalizacja pod wyszukiwarki - SEO (500 PLN)
+                </label>
+                <label for="ssl" class="label">
+                    <input data-price="50" type="checkbox" class="check" name="ssl" id="ssl">
+                    <span class="checkmark"></span>
+                    certyfikat SSL (50 PLN)
+                </label>
+                <label for="mailing" class="label">
+                    <input data-price="150" type="checkbox" class="check" name="mailing" id="mailing">
+                    <span class="checkmark"></span>
+                    konfiguracja poczty firmowej (150 PLN)
+                </label>
+                <label for="page">
+                    <input data-price="350" type="number" id="page" name="page" class="number" value="0">
+                    projekt graficzny podstrony (350 PLN)
+                </label>
+                <span>realizacja podstron:</span>
+                <label for="contact" class="sub label">
+                    <input data-price="50" type="checkbox" class="check" name="contact" id="contact">
+                    <span class="checkmark"></span>
+                    kontakt (50 PLN)
+                </label>
+                <label for="gallery" class="sub label">
+                    <input data-price="30" type="checkbox" class="check" name="gallery" id="gallery">
+                    <span class="checkmark"></span>
+                    galeria (30 PLN)
+                </label>
+                <label for="regulations" class="sub label">
+                    <input data-price="20" type="checkbox" class="check" name="regulations" id="regulations">
+                    <span class="checkmark"></span>
+                    regulamin (20 PLN)
+                </label>
+
+                <span class="result"></span>
+                <input class="btn" type="submit" value="sprawdź">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
